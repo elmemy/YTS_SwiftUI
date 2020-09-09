@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		174B8A30F7856239BFB1A8BF /* Pods_YTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47625E151B48BC89F3EFBBCC /* Pods_YTS.framework */; };
+		AD09693924FAF2D50076C136 /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD09693824FAF2D50076C136 /* MovieDetailsView.swift */; };
 		AD60358324F974E500E1EAFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60358224F974E500E1EAFE /* AppDelegate.swift */; };
 		AD60358524F974E500E1EAFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60358424F974E500E1EAFE /* SceneDelegate.swift */; };
-		AD60358724F974E500E1EAFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60358624F974E500E1EAFE /* ContentView.swift */; };
+		AD60358724F974E500E1EAFE /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60358624F974E500E1EAFE /* MoviesView.swift */; };
 		AD60358924F974ED00E1EAFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60358824F974ED00E1EAFE /* Assets.xcassets */; };
 		AD60358C24F974ED00E1EAFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD60358B24F974ED00E1EAFE /* Preview Assets.xcassets */; };
 		AD60358F24F974ED00E1EAFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD60358D24F974ED00E1EAFE /* LaunchScreen.storyboard */; };
+		AD60359824F9756100E1EAFE /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60359724F9756100E1EAFE /* MoviesModel.swift */; };
+		AD60359A24F9757300E1EAFE /* MoviesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD60359924F9757300E1EAFE /* MoviesViewModel.swift */; };
+		ADA2357A24FAFF9E00335BD2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA2357924FAFF9E00335BD2 /* MovieCell.swift */; };
+		ADDE123424F976BD009C4CC8 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE123224F976BD009C4CC8 /* ColorManager.swift */; };
+		ADDE123524F976BD009C4CC8 /* FontManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDE123324F976BD009C4CC8 /* FontManger.swift */; };
+		ADFEA7D224FAD23000A2007C /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEA7D124FAD23000A2007C /* ImageLoader.swift */; };
+		ADFEA7D424FAE46300A2007C /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFEA7D324FAE46300A2007C /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1197F13483A0FB31F94D7E21 /* Pods-YTS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTS.debug.xcconfig"; path = "Target Support Files/Pods-YTS/Pods-YTS.debug.xcconfig"; sourceTree = "<group>"; };
+		47625E151B48BC89F3EFBBCC /* Pods_YTS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YTS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD09693824FAF2D50076C136 /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
 		AD60357F24F974E500E1EAFE /* YTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD60358224F974E500E1EAFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD60358424F974E500E1EAFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD60358624F974E500E1EAFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD60358624F974E500E1EAFE /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		AD60358824F974ED00E1EAFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD60358B24F974ED00E1EAFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD60358E24F974ED00E1EAFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD60359024F974ED00E1EAFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD60359724F9756100E1EAFE /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
+		AD60359924F9757300E1EAFE /* MoviesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewModel.swift; sourceTree = "<group>"; };
+		ADA2357924FAFF9E00335BD2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		ADDE123224F976BD009C4CC8 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		ADDE123324F976BD009C4CC8 /* FontManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManger.swift; sourceTree = "<group>"; };
+		ADDE123724F976D9009C4CC8 /* Cairo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Black.ttf"; sourceTree = "<group>"; };
+		ADDE123824F976D9009C4CC8 /* Cairo-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-SemiBold.ttf"; sourceTree = "<group>"; };
+		ADDE123924F976D9009C4CC8 /* Cairo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Bold.ttf"; sourceTree = "<group>"; };
+		ADDE123A24F976DA009C4CC8 /* Cairo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Light.ttf"; sourceTree = "<group>"; };
+		ADDE123B24F976DA009C4CC8 /* Cairo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-Regular.ttf"; sourceTree = "<group>"; };
+		ADDE123C24F976DA009C4CC8 /* Cairo-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cairo-ExtraLight.ttf"; sourceTree = "<group>"; };
+		ADFEA7D124FAD23000A2007C /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		ADFEA7D324FAE46300A2007C /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		C1B9D1940524A03FB2C2BCC9 /* Pods-YTS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTS.release.xcconfig"; path = "Target Support Files/Pods-YTS/Pods-YTS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				174B8A30F7856239BFB1A8BF /* Pods_YTS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				AD60358124F974E500E1EAFE /* YTS */,
 				AD60358024F974E500E1EAFE /* Products */,
+				C88A8437763684626806734B /* Pods */,
+				D2F9772FF8B294866450CDBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +85,11 @@
 		AD60358124F974E500E1EAFE /* YTS */ = {
 			isa = PBXGroup;
 			children = (
+				ADFEA7D024FAD21D00A2007C /* Units */,
+				ADDE123024F976A7009C4CC8 /* Resources */,
+				AD60359624F9754900E1EAFE /* Movies */,
 				AD60358224F974E500E1EAFE /* AppDelegate.swift */,
 				AD60358424F974E500E1EAFE /* SceneDelegate.swift */,
-				AD60358624F974E500E1EAFE /* ContentView.swift */,
 				AD60358824F974ED00E1EAFE /* Assets.xcassets */,
 				AD60358D24F974ED00E1EAFE /* LaunchScreen.storyboard */,
 				AD60359024F974ED00E1EAFE /* Info.plist */,
@@ -75,6 +106,108 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		AD60359624F9754900E1EAFE /* Movies */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE122F24F9761D009C4CC8 /* VIew */,
+				ADDE122E24F97612009C4CC8 /* Model */,
+				ADDE122D24F975F5009C4CC8 /* ViewModel */,
+			);
+			path = Movies;
+			sourceTree = "<group>";
+		};
+		ADA2357824FAFF9100335BD2 /* MovieCell */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2357924FAFF9E00335BD2 /* MovieCell.swift */,
+			);
+			path = MovieCell;
+			sourceTree = "<group>";
+		};
+		ADDE122D24F975F5009C4CC8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD60359924F9757300E1EAFE /* MoviesViewModel.swift */,
+			);
+			name = ViewModel;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		ADDE122E24F97612009C4CC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD60359724F9756100E1EAFE /* MoviesModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ADDE122F24F9761D009C4CC8 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				ADA2357824FAFF9100335BD2 /* MovieCell */,
+				AD60358624F974E500E1EAFE /* MoviesView.swift */,
+				AD09693824FAF2D50076C136 /* MovieDetailsView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		ADDE123024F976A7009C4CC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE123624F976C6009C4CC8 /* Fonts */,
+				ADDE123124F976B2009C4CC8 /* Colors and Font Manger */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADDE123124F976B2009C4CC8 /* Colors and Font Manger */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE123224F976BD009C4CC8 /* ColorManager.swift */,
+				ADDE123324F976BD009C4CC8 /* FontManger.swift */,
+			);
+			path = "Colors and Font Manger";
+			sourceTree = "<group>";
+		};
+		ADDE123624F976C6009C4CC8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADDE123724F976D9009C4CC8 /* Cairo-Black.ttf */,
+				ADDE123924F976D9009C4CC8 /* Cairo-Bold.ttf */,
+				ADDE123C24F976DA009C4CC8 /* Cairo-ExtraLight.ttf */,
+				ADDE123A24F976DA009C4CC8 /* Cairo-Light.ttf */,
+				ADDE123B24F976DA009C4CC8 /* Cairo-Regular.ttf */,
+				ADDE123824F976D9009C4CC8 /* Cairo-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ADFEA7D024FAD21D00A2007C /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				ADFEA7D124FAD23000A2007C /* ImageLoader.swift */,
+				ADFEA7D324FAE46300A2007C /* RatingView.swift */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		C88A8437763684626806734B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1197F13483A0FB31F94D7E21 /* Pods-YTS.debug.xcconfig */,
+				C1B9D1940524A03FB2C2BCC9 /* Pods-YTS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D2F9772FF8B294866450CDBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47625E151B48BC89F3EFBBCC /* Pods_YTS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD60359324F974ED00E1EAFE /* Build configuration list for PBXNativeTarget "YTS" */;
 			buildPhases = (
+				A7199390E64738D288188348 /* [CP] Check Pods Manifest.lock */,
 				AD60357B24F974E500E1EAFE /* Sources */,
 				AD60357C24F974E500E1EAFE /* Frameworks */,
 				AD60357D24F974E500E1EAFE /* Resources */,
@@ -141,14 +275,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A7199390E64738D288188348 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD60357B24F974E500E1EAFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDE123524F976BD009C4CC8 /* FontManger.swift in Sources */,
+				AD60359824F9756100E1EAFE /* MoviesModel.swift in Sources */,
+				AD09693924FAF2D50076C136 /* MovieDetailsView.swift in Sources */,
+				ADA2357A24FAFF9E00335BD2 /* MovieCell.swift in Sources */,
+				ADFEA7D424FAE46300A2007C /* RatingView.swift in Sources */,
 				AD60358324F974E500E1EAFE /* AppDelegate.swift in Sources */,
 				AD60358524F974E500E1EAFE /* SceneDelegate.swift in Sources */,
-				AD60358724F974E500E1EAFE /* ContentView.swift in Sources */,
+				ADFEA7D224FAD23000A2007C /* ImageLoader.swift in Sources */,
+				ADDE123424F976BD009C4CC8 /* ColorManager.swift in Sources */,
+				AD60358724F974E500E1EAFE /* MoviesView.swift in Sources */,
+				AD60359A24F9757300E1EAFE /* MoviesViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +449,7 @@
 		};
 		AD60359424F974ED00E1EAFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1197F13483A0FB31F94D7E21 /* Pods-YTS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +469,7 @@
 		};
 		AD60359524F974ED00E1EAFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B9D1940524A03FB2C2BCC9 /* Pods-YTS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
